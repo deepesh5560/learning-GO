@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	//not used much but we can use these for fixed length data
 	var numList [4]int
 
 	numList[0] = 10
