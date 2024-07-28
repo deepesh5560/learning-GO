@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+
+	// nothing but refrence concept as we have in js and u have learned this concept in th basics of rust also
 	myNum := 7
 
 	thala := &myNum
