@@ -22,4 +22,13 @@ func main() {
 	} else {
 		fmt.Println("User is not active")
 	}
+
+	test := ""
+
+	if len(test) != 0 {
+		fmt.Println("Condition is true")
+	} else {
+		fmt.Println("Condition is false")
+	}
+
 }
