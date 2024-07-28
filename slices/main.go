@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+
+	//slices are just like normal arrays in js
 	mySlices := []string{}
 
 	fmt.Println("mySlices", mySlices)
