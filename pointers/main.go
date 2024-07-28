@@ -11,5 +11,7 @@ func main() {
 	*thala = *thala * 2
 
 	fmt.Println("your new num is ", *thala)
+	// or
+	fmt.Println("your new num is ", myNum)
 
 }
