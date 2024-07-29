@@ -28,7 +28,7 @@ func readFile(filename string) {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Print(string(dataByte))
+	fmt.Print(string(dataByte)) // convert byte data to string
 }
 
 func checkError(err error) {
