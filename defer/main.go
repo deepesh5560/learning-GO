@@ -10,7 +10,7 @@ func main() {
 	defer fmt.Println("two")
 	fmt.Println("World")
 	mydefer()
-} //result world two one hello
+} //result world 0 1 2 3 4 two one hello
 
 func mydefer() {
 	for i := 0; i < 5; i++ {
