@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main() { // just like js but it doesn't need round brackets to write conditional expressions
 	num := 9
 
 	if num > 10 {

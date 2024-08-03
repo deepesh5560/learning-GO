@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//methods are just like binding a function to the object's key in js
+
 func main() {
 	deepesh := User{"Deepesh", "Deepesh@dev.go", 24, true}
 	fmt.Println(deepesh.SetStatus(false))

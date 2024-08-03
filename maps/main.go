@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// map work with key value pairs
+	// map work with key value pairs it just like maps in js or almost like objects in js
 	var myMap = make(map[string]string)
 	myMap["py"] = "python"
 	myMap["js"] = "javascript"

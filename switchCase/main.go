@@ -15,7 +15,7 @@ func main() {
 
 	fmt.Printf("You rolled a %d\n", diceNum)
 
-	switch diceNum {
+	switch diceNum { //just liek js
 	case 1:
 		fmt.Printf("You can move %v\n", diceNum)
 

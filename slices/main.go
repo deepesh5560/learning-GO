@@ -7,14 +7,14 @@ import (
 
 func main() {
 
-	//slices are just like normal arrays in js
+	//slices are almost like  arrays in js
 	mySlices := []string{}
 
 	fmt.Println("mySlices", mySlices)
 
-	mySlices = append(mySlices, "mango", "apple", "orange", "peach", "banana")
+	mySlices = append(mySlices, "mango", "apple", "orange", "peach", "banana") //this is used to just like push in js but we can multipe elements in one go
 	fmt.Println("mySlices app", mySlices)
-	mySlices = append(mySlices[:2], mySlices[2:5]...)
+	mySlices = append(mySlices[:2], mySlices[2:5]...) //[:2],[2:5] these will work just like slice where left val starting index and right is ending index-1
 	fmt.Println("mySlices app2", mySlices)
 
 	// using make

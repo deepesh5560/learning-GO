@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("working on functions")
 
-	// functions in GO works same as it works in js but u can define a function inside a function
+	// functions in GO works same as it works in js but u can not define a function inside a function
 
 	//normal function
 	greet()

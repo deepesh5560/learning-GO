@@ -10,7 +10,7 @@ func main() {
 
 }
 
-type User struct { // using first letter capiytal so we can make these public
+type User struct { // using first letter capital so we can make these public
 	Name     string
 	Mail     string
 	Age      int
